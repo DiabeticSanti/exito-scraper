@@ -5,7 +5,6 @@ import pytest
 pytest.importorskip("scrapy")
 
 from scrapy.http import HtmlResponse  # noqa: E402
-
 from scrapy_exito import ExitoSpider  # noqa: E402
 
 FIXTURE = Path(__file__).parent / "fixtures" / "producto_exito.html"
