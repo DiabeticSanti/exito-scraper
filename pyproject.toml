@@ -18,7 +18,7 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["src"]
+pythonpath = ["src", "."]
 markers = ["live: prueba que usa la red (no se ejecuta en CI normal)"]
 addopts = "-m 'not live'"
 
